@@ -3,6 +3,8 @@ import Card from "./components/Card";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 // import Footer from "./components/Footer";
+import PropTypes from 'prop-types';
+
 
 import cards from "./cards.json";
 // import logo from './logo.svg';
@@ -25,13 +27,36 @@ class App extends Component {
     this.state.cards.forEach(card => {
       card.count = 0;
     });
-    alert(`Game Over  \nscore: ${this.state.score} \nHighscore: ${this.state.highscore}`);
+
+    // eslint-disable-next-line no-unused-expressions
+    // eslint-disable-next-line react/jsx-no-comment-textnodes
+    // eslint-disable-next-line no-unused-expressions
+    
+
+
+
+  // eslint-disable-next-line react/jsx-no-comment-textnodes
+ 
+    // eslint-disable-next-line no-undef
+    // eslint-disable-next-line no-restricted-globals
+   alert(`Game Over  \nscore: ${this.state.score} \nHighscore: ${this.state.highscore}`);
+ 
+
+
+    
+
+
+    // eslint-disable-next-line no-undef
+    //  alert("#noteModal").modal('show')
+    // eslint-disable-next-line no-undef
+    
    
     this.setState({score: 0});
    
     return true;
     
   }
+  
 
   clickCount = id => {
     // eslint-disable-next-line array-callback-return
