@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Card from "./components/Card";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
+// import Footer from "./components/Footer";
 
 import cards from "./cards.json";
 // import logo from './logo.svg';
@@ -25,12 +26,15 @@ class App extends Component {
       card.count = 0;
     });
     alert(`Game Over  \nscore: ${this.state.score} \nHighscore: ${this.state.highscore}`);
+   
     this.setState({score: 0});
+   
     return true;
     
   }
 
   clickCount = id => {
+    // eslint-disable-next-line array-callback-return
     this.state.cards.find((o, i) => {
       if (o.id === id) {
         if(cards[i].count === 0){
@@ -45,6 +49,7 @@ class App extends Component {
         }
       }
     });
+   
   }
   // Map over this.state.cards and render a cardCard component for each card object
   render() {
@@ -63,7 +68,8 @@ class App extends Component {
     );
   }
   // 
-  // <Modal></Modal>
+  
+ 
   // 
 }
 
