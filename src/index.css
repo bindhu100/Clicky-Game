@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/public/water.jpg");
   
 }
 
@@ -18,4 +19,7 @@ code {
   height: 38px;
   text-align: center;
   padding-top: 8px;
+}
+.navbar{
+  height: 43px;
 }

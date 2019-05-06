@@ -1,9 +1,13 @@
+/* eslint-disable react/jsx-no-undef */
 import React, {Component} from 'react';
 import Card from "./components/Card";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 // import Footer from "./components/Footer";
 import PropTypes from 'prop-types';
+
+
+
 
 
 import cards from "./cards.json";
@@ -28,29 +32,12 @@ class App extends Component {
       card.count = 0;
     });
 
-    // eslint-disable-next-line no-unused-expressions
-    // eslint-disable-next-line react/jsx-no-comment-textnodes
-    // eslint-disable-next-line no-unused-expressions
-    
-
-
-
-  // eslint-disable-next-line react/jsx-no-comment-textnodes
- 
-    // eslint-disable-next-line no-undef
-    // eslint-disable-next-line no-restricted-globals
-   alert(`Game Over  \nscore: ${this.state.score} \nHighscore: ${this.state.highscore}`);
  
 
+   alert(`\nGame Over  \nYou score is: ${this.state.score} \nPlease try again! `);
+  // eslint-disable-next-line no-unused-expressions
+ 
 
-    
-
-
-    // eslint-disable-next-line no-undef
-    //  alert("#noteModal").modal('show')
-    // eslint-disable-next-line no-undef
-    
-   
     this.setState({score: 0});
    
     return true;
@@ -92,10 +79,6 @@ class App extends Component {
       </Wrapper>
     );
   }
-  // 
-  
- 
-  // 
 }
 
 // function App() {
