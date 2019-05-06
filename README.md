@@ -31,7 +31,7 @@ If user will clik same image more than once, the game is over
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
