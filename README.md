@@ -1,3 +1,10 @@
+### Clicky Game
+
+
+![GitHub Logo](public/image/water.jpg);
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -69,9 +76,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 
-### TEST
 
-
-
-
-![GitHub Logo](public/water.jpg);
