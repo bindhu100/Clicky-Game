@@ -1,6 +1,10 @@
 ## Clicky Game -  React App
 
 
+![GitHub Logo](public/image/Webp.net-gifmaker.gif)
+
+
+
 ### Clicky Game Instructions
 
 ![GitHub Logo](public/image/Instructions.jpg)
