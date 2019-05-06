@@ -1,5 +1,11 @@
 ## Clicky Game -  React App
 
+
+### Clicky Game Instructions
+
+![GitHub Logo](public/image/Instructions.jpg)
+
+
 The application should render different images to the screen. Each image should listen for click events.
 
 
@@ -12,10 +18,10 @@ The application should keep track of the user's score. The user's score should b
 
 ![GitHub Logo](public/image/score.jpg)
 
+If user will clik same image more than once, the game is over
 
-### Clicky Game Instructions
 
-![GitHub Logo](public/image/Instructions.jpg)
+![GitHub Logo](public/image/gameover.PNG)
 
 
 
