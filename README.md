@@ -1,7 +1,9 @@
-### Clicky Game
+### Clicky Game -  React App
+
+The application should render different images to the screen. Each image should listen for click events.
 
 
-![GitHub Logo](public/image/water.jpg);
+![GitHub Logo](public/image/homePage.jpg)
 
 
 
